@@ -22,7 +22,7 @@ async function load() {
     
         // 设置初始内容
         titleElement.innerText = title;
-        mainImage.src = `${hash}/0${imageType}`;
+        mainImage.src = `./${hash}/0${imageType}`;
         yesButtonElement.innerText = yesButton;
         noButtonElement.innerText = noButton;
         questionText.innerText = question;
